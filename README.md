@@ -1,16 +1,29 @@
-## Hi there 👋
+# Ashwath Satish
 
-<!--
-**ashwath-satish/ashwath-satish** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Junior at Rouse High School in Leander, Texas. I work on digital hardware — RTL, FPGAs, and accelerator design — and I'm applying to study electrical and computer engineering.
 
-Here are some ideas to get you started:
+### What I'm building right now
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**A bit-serial quantized neural network accelerator on a Tang Nano 20K** (Gowin GW2AR-18), built to answer one question: how much energy does a fixed-precision inference actually cost on an FPGA compared to the same model running in software on an ESP32-S3?
+
+The whole flow is open-source — Yosys for synthesis, nextpnr-himbaechel for place and route, gowin_pack for bitstream generation, openFPGALoader to flash. No vendor IDE.
+
+**Where it stands:** toolchain working end to end, with blinky and a UART echo loop verified on the board. The MAC datapath, the ESP32 software baseline, and the INA228-based energy measurement harness are next, not done. I'd rather say that than publish numbers I haven't measured.
+
+→ [`bitserial-fpga-energy`](https://github.com/ashwath-satish/bitserial-fpga-energy)
+
+### Other things here
+
+- **[`Indicators-`](https://github.com/ashwath-satish/Indicators-)** — a performance-indicator study tool for DECA competitors, live at [indicators-minus.vercel.app](https://indicators-minus.vercel.app). Built it because the official PI lists are PDFs nobody can study from.
+- **MNIST implementations** — handwritten digit classification, written to understand the arithmetic rather than to call a library. Relevant background for quantizing a network down to something a small FPGA can hold.
+- **`apl-sim`** — autonomous parking lot simulation, C++/raylib.
+
+### Interests
+
+Low-power digital design, quantization and fixed-point arithmetic, open-source FPGA toolchains, and the measurement side of hardware — building the harness that proves a claim, not just the thing being claimed.
+
+Also: Controls subteam on FRC team HowdyBots, and I build and maintain online practice testing infrastructure for 500+ students at Leap4ward.
+
+### Contact
+
+Open to research assistance, internships, and anything where a high schooler who can write Verilog and run a measurement is useful. Reachable at the email on my CV, or open an issue on any repo here.
