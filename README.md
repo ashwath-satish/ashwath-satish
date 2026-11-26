@@ -22,7 +22,7 @@ The whole flow is open-source — Yosys for synthesis, nextpnr-himbaechel for pl
 
 Low-power digital design, quantization and fixed-point arithmetic, open-source FPGA toolchains, and the measurement side of hardware — building the harness that proves a claim, not just the thing being claimed.
 
-Also: Controls subteam on FRC team HowdyBots, and I build and maintain online practice testing infrastructure for 500+ students at Leap4ward.
+Also: Controls subteam on local FRC team, and I build and maintain online practice testing infrastructure for 500+ students at Leap4ward.
 
 ### Contact
 
