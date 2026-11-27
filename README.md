@@ -2,13 +2,11 @@ High school junior in Leander, Texas. Interested in digital hardware, accelerato
 
 ### Featured work
 
-**[bitserial-fpga-energy](https://github.com/ashwath-satish/bitserial-fpga-energy)** — Bit-serial quantized neural network accelerator on a Tang Nano 20K (Gowin GW2AR-18), built to measure energy per inference against an ESP32-S3 software baseline. Fully open-source flow: yosys → nextpnr-himbaechel → gowin_pack → openFPGALoader, no vendor IDE. Toolchain and UART echo verified on hardware. MAC datapath and energy harness in progress.
+**Bit-serial FPGA accelerator** (private until judged) — Bit-serial quantized neural network accelerator on a Tang Nano 20K (Gowin GW2AR-18), built to measure energy per inference against an ESP32-S3 software baseline. Fully open-source flow: yosys → nextpnr-himbaechel → gowin_pack → openFPGALoader, no vendor IDE. Toolchain and UART echo verified on hardware. MAC datapath and energy harness in progress.
 
 **[Indicators-](https://github.com/ashwath-satish/Indicators-)** — Performance-indicator study tool for DECA competitors, live at [indicators-minus.vercel.app](https://indicators-minus.vercel.app).
 
 **[MNIST classifiers](https://github.com/ashwath-satish/MNIST-Dataset-Project-Convolutional)** — Linear and convolutional implementations.
-
-**apl-sim** — Autonomous parking lot simulation, C++/raylib.
 
 ### Tech
 
