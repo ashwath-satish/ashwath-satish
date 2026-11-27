@@ -8,8 +8,6 @@ Junior at Rouse High School in Leander, Texas. I work on digital hardware — RT
 
 The whole flow is open-source — Yosys for synthesis, nextpnr-himbaechel for place and route, gowin_pack for bitstream generation, openFPGALoader to flash. No vendor IDE.
 
-**Where it stands:** toolchain working end to end, with blinky and a UART echo loop verified on the board. The MAC datapath, the ESP32 software baseline, and the INA228-based energy measurement harness are next, not done. I'd rather say that than publish numbers I haven't measured.
-
 → [`bitserial-fpga-energy`](https://github.com/ashwath-satish/bitserial-fpga-energy)
 
 ### Other things here
